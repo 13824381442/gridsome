@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class='tag-content'>
-      <g-link :to='"/posts/" + tag.node.id' class='tag-item' v-for='tag in tags' :key='tag.node.id'>{{tag.node.title}}</g-link>
+      <g-link :to='"/List/" + tag.node.id' class='tag-item' v-for='tag in tags' :key='tag.node.id'>{{tag.node.title}}</g-link>
     </div>
   </Layout>
 </template>

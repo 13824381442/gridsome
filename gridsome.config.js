@@ -24,8 +24,8 @@ module.exports = {
     ],
     StrapiTag: [
       {
-        path: '/Tag/:id',
-        component: './src/templates/Posts.vue'
+        path: '/List/:id',
+        component: './src/templates/List.vue'
       }
     ]
   }

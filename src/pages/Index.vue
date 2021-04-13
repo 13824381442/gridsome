@@ -33,7 +33,7 @@
       <div class='index-nav'>
         <div class='nav-content'>
           <g-link class='nav-item' 
-            :to='"/posts/" + tag.node.id'
+            :to='"/List/" + tag.node.id'
             :class='index < tags.length - 1 ? "nav-item-line" : ""' 
             v-for='(tag, index) in tags' 
             :key='tag.node.id'>
